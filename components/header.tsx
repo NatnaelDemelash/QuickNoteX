@@ -6,6 +6,7 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 import { useScroll } from 'motion/react';
 import { Logo } from './logo';
+import { ModeToggle } from './mode-toggle';
 
 const menuItems = [
   { name: 'Features', href: '#features' },
@@ -86,6 +87,7 @@ export const HeroHeader = () => {
                   ))}
                 </ul>
               </div>
+              <ModeToggle />
               <Button asChild variant="outline" size="sm">
                 <Link href="/auth/login">
                   <span>Login</span>
