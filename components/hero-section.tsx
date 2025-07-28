@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { TextEffect } from '@/components/ui/text-effect';
@@ -49,9 +48,9 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
+                  className="mt-8 max-w-3xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
                 >
-                  Capture Your Thoughts. Anytime. Anywhere.
+                  🔥Capture Your Thoughts. Anytime. Anywhere.
                 </TextEffect>
                 <TextEffect
                   per="line"

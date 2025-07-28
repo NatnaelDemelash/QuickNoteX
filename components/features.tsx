@@ -16,7 +16,7 @@ export default function Features() {
           </p>
         </div>
         <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
-          <Card className="group shadow-zinc-950/5">
+          <Card className="group bg-background">
             <CardHeader className="pb-3">
               <CardDecorator>
                 <Zap className="size-6" aria-hidden />
@@ -31,7 +31,7 @@ export default function Features() {
             </CardContent>
           </Card>
 
-          <Card className="group shadow-zinc-950/5">
+          <Card className="group bg-background">
             <CardHeader className="pb-3">
               <CardDecorator>
                 <Settings2 className="size-6" aria-hidden />
@@ -46,7 +46,7 @@ export default function Features() {
             </CardContent>
           </Card>
 
-          <Card className="group shadow-zinc-950/5">
+          <Card className="group bg-background">
             <CardHeader className="pb-3">
               <CardDecorator>
                 <Sparkles className="size-6" aria-hidden />
